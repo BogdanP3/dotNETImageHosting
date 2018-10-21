@@ -2,19 +2,20 @@
 
 TODO:
 
-```
+
 <details> 
   <summary>Create a database.</summary>
-  Users : {
-    nID, // primary key
-    strDisplayName,
-    strEmail,
-    nPasswordHash,
-    nUserLevel
-}
-   
+    ```
+    Users : {
+        nID, // primary key
+        strDisplayName,
+        strEmail,
+        nPasswordHash,
+        nUserLevel
+    }
+    ```
 </details>
-```
+
 
 ```
 Users : {
