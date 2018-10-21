@@ -14,27 +14,15 @@ TODO:
         nUserLevel
     }
 
-</details>
-
-
-```
-Users : {
-    nID, // primary key
-    strDisplayName,
-    strEmail,
-    nPasswordHash,
-    nUserLevel
-}
-```
-
-```
-UserImages : {
+    UserImages : {
     nID, // primary key
     nUserID, // foreign key
     nUniqueImageID, // foreign key
     nCreationDateMiliseconds
 }
-```
+
+</details>
+
 
 
 ```
