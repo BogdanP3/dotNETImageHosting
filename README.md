@@ -6,15 +6,17 @@ TODO:
 <details> 
   <summary>Create a database.</summary>
 
-    Users : {
-        nID, // primary key
-        strDisplayName,
-        strEmail,
-        nPasswordHash,
-        nUserLevel
-    }
+    <details>
+        <summary>Users Table</summary>
+        Users : {
+            nID, // primary key
+            strDisplayName,
+            strEmail,
+            nPasswordHash,
+            nUserLevel
+        }
+    </details>
 
-    <br>
 
     UserImages : {
         nID, // primary key
