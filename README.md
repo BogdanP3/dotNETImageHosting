@@ -3,7 +3,17 @@
 TODO:
 
 ```
-Create a DB with the following rules
+<details> 
+  <summary>Create a database.</summary>
+  Users : {
+    nID, // primary key
+    strDisplayName,
+    strEmail,
+    nPasswordHash,
+    nUserLevel
+}
+   
+</details>
 ```
 
 ```
@@ -30,7 +40,6 @@ UserImages : {
 UniqueImages : {
     nID, // primary key
     nHash,
-    strDiskLocation
 }
 ```
 
