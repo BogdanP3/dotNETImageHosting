@@ -6,8 +6,8 @@ TODO:
 <details> 
     <summary>Create a database.</summary>
         <br>
-        - [ ] <details>
-            <summary> Users</summary>
+        <details>
+            - [ ] <summary> Users</summary>
 
 
                 Users : {
