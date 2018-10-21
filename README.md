@@ -12,7 +12,7 @@ TODO:
     <summary>DB Structure</summary>
         <br>
         <details>
-            <summary> Users</summary>
+            <summary>Users</summary>
 
                 Users : {
                     nID, // primary key
