@@ -1,11 +1,57 @@
 # dotNETImageHosting
 
-#first line
+TODO:
 
-#second line
 
-#third line
+** DB
 
-#fourth line
+Users : {
+    nID, // primary key
+    strDisplayName,
+    strEmail,
+    nPasswordHash,
+    nUserLevel
+}
 
-#fifth line 
+UserImages : {
+    nID, // primary key
+    nUserID, // foreign key
+    nUniqueImageID, // foreign key
+    nCreationDateMiliseconds
+}
+
+
+UniqueImages : {
+    nID, // primary key
+    nHash,
+    strDiskLocation
+}
+
+
+Tags : {
+    nID, // primary key
+    strTagName
+}
+
+
+TagImages : {
+    nID, // primary key
+    nTagID, // foreign key
+    nImageID // foreign key
+}
+
+Likes : {
+    nID, // primary key
+    nImageID, // foreign key
+    nUserID, // foreign key unique
+    bIsDislike,
+    nCreationDateMiliseconds
+}
+
+Comments : {
+    nID, // primary key
+    nImageID, // foreign key
+    nUserID, // foreign key
+    strContent,
+    nCreationDateMiliseconds
+}

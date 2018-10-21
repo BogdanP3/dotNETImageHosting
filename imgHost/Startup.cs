@@ -56,7 +56,7 @@ namespace imgHost
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=ImgHost}/{action=Index}/{id?}");
             });
         }
     }
