@@ -4,7 +4,7 @@ TODO:
 
 - [ ] Create a database.
 <details> 
-    <summary>Structure</summary>
+    <summary>DB Structure</summary>
         <br>
         <details>
             <summary> Users</summary>
@@ -82,3 +82,13 @@ TODO:
 
 </details>
 </details>
+
+- [ ] User creation form.
+
+- [ ] Main HTML page.
+
+- [ ] TagName HTML page.
+
+- [ ] Specific image HTML page.
+
+- [ ] Contact/About page
