@@ -7,10 +7,10 @@ TODO:
     <summary>Create a database.</summary>
         <br>
         <details>
-            <summary>Users</summary>
+            <summary> - [ ] Users </summary>
 
 
-                - [ ] Users : {
+                Users : {
                     nID, // primary key
                     strDisplayName,
                     strEmail,
