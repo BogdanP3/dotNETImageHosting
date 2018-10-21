@@ -2,6 +2,11 @@
 
 TODO:
 
+- [ ] User creation form.
+- [ ] Main HTML page.
+- [ ] TagName HTML page.
+- [ ] Specific image HTML page.
+- [ ] Contact/About page
 - [ ] Create a database.
 <details> 
     <summary>DB Structure</summary>
@@ -82,13 +87,3 @@ TODO:
 
 </details>
 </details>
-
-- [ ] User creation form.
-
-- [ ] Main HTML page.
-
-- [ ] TagName HTML page.
-
-- [ ] Specific image HTML page.
-
-- [ ] Contact/About page
