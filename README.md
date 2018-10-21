@@ -6,7 +6,6 @@ TODO:
 <details> 
   <summary>Create a database.</summary>
 
-    <code>
     Users : {
         nID, // primary key
         strDisplayName,
@@ -14,7 +13,6 @@ TODO:
         nPasswordHash,
         nUserLevel
     }
-    </code>
 
 </details>
 
