@@ -2,9 +2,10 @@
 
 TODO:
 
+ [ ] Create a database.
 
 <details> 
-    <summary>Create a database.</summary>
+    <summary>Database structure</summary>
         <br>
         <details>
             <summary> Users</summary>
