@@ -15,11 +15,11 @@ TODO:
     }
 
     UserImages : {
-    nID, // primary key
-    nUserID, // foreign key
-    nUniqueImageID, // foreign key
-    nCreationDateMiliseconds
-}
+        nID, // primary key
+        nUserID, // foreign key
+        nUniqueImageID, // foreign key
+        nCreationDateMiliseconds
+    }
 
 </details>
 
