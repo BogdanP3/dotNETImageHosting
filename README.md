@@ -8,6 +8,7 @@ TODO:
         <br>
         <details>
             <summary> Users</summary>
+
                 Users : {
                     nID, // primary key
                     strDisplayName,
@@ -15,6 +16,7 @@ TODO:
                     nPasswordHash,
                     nUserLevel
                 }
+
 </details>
         <details>
             <summary>UserImages</summary>
