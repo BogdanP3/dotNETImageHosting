@@ -5,6 +5,7 @@ TODO:
 
 <details> 
     <summary>Create a database.</summary>
+        <br><br>
         <details>
             <summary>Users</summary>
 
@@ -92,6 +93,6 @@ TODO:
                     nCreationDateMiliseconds
                 }
 
-                
+
 </details>
 </details>
