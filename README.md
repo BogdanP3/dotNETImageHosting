@@ -7,19 +7,17 @@ TODO:
     <summary>Create a database.</summary>
         <details>
             <summary>Users</summary>
-
-            Users : {
+            ```Users : {
                 nID, // primary key
                 strDisplayName,
                 strEmail,
                 nPasswordHash,
                 nUserLevel
-            }
-
+            }```
         </details>
 
-    <p>
-    
+ 
+
         UserImages : {
             nID, // primary key
             nUserID, // foreign key
@@ -63,6 +61,4 @@ TODO:
             strContent,
             nCreationDateMiliseconds
         }
-
-    </p>   
 </details>
