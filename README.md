@@ -2,7 +2,7 @@
 
 TODO:
 
- [ ] Create a database.
+- [ ] Create a database.
 
 <details> 
     <summary>Database structure</summary>
