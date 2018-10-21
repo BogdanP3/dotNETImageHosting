@@ -5,9 +5,8 @@ TODO:
 
 <details> 
   <summary>Create a database.</summary>
-
     <details>
-        <summary>Users Table</summary>
+        <summary>Users</summary>
         Users : {
             nID, // primary key
             strDisplayName,
