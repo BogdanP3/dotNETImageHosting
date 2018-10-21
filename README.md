@@ -21,7 +21,6 @@ TODO:
         <details>
             <summary>UserImages</summary>
 
-
                 UserImages : {
                     nID, // primary key
                     nUserID, // foreign key
@@ -29,33 +28,27 @@ TODO:
                     nCreationDateMiliseconds
                 }
 
-
 </details>
         <details>
             <summary>UniqueImages</summary>
-
 
                  UniqueImages : {
                     nID, // primary key
                     nHash,
                 }
 
-
 </details>
         <details>
             <summary>Tags</summary>
-
 
                Tags : {
                     nID, // primary key
                     strTagName
                 }
 
-
 </details>
         <details>
             <summary>TagImages</summary>
-
 
                TagImages : {
                     nID, // primary key
@@ -63,11 +56,9 @@ TODO:
                     nImageID // foreign key
                 }
 
-
 </details>
         <details>
             <summary>Likes</summary>
-
 
                 Likes : {
                     nID, // primary key
@@ -77,11 +68,9 @@ TODO:
                     nCreationDateMiliseconds
                 }
 
-
 </details>
         <details>
             <summary>Comments</summary>
-
 
                 Comments : {
                     nID, // primary key
@@ -90,7 +79,6 @@ TODO:
                     strContent,
                     nCreationDateMiliseconds
                 }
-
 
 </details>
 </details>
