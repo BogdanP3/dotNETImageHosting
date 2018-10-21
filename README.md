@@ -14,6 +14,8 @@ TODO:
         nUserLevel
     }
 
+    <br>
+
     UserImages : {
         nID, // primary key
         nUserID, // foreign key
@@ -21,52 +23,41 @@ TODO:
         nCreationDateMiliseconds
     }
 
+
+    UniqueImages : {
+        nID, // primary key
+        nHash,
+    }
+
+
+    Tags : {
+        nID, // primary key
+        strTagName
+    }
+
+
+    TagImages : {
+        nID, // primary key
+        nTagID, // foreign key
+        nImageID // foreign key
+    }
+
+
+    Likes : {
+        nID, // primary key
+        nImageID, // foreign key
+        nUserID, // foreign key unique
+        bIsDislike,
+        nCreationDateMiliseconds
+    }
+
+
+    Comments : {
+        nID, // primary key
+        nImageID, // foreign key
+        nUserID, // foreign key
+        strContent,
+        nCreationDateMiliseconds
+    }
+
 </details>
-
-
-
-```
-UniqueImages : {
-    nID, // primary key
-    nHash,
-}
-```
-
-
-```
-Tags : {
-    nID, // primary key
-    strTagName
-}
-```
-
-
-```
-TagImages : {
-    nID, // primary key
-    nTagID, // foreign key
-    nImageID // foreign key
-}
-```
-
-
-```
-Likes : {
-    nID, // primary key
-    nImageID, // foreign key
-    nUserID, // foreign key unique
-    bIsDislike,
-    nCreationDateMiliseconds
-}
-```
-
-
-```
-Comments : {
-    nID, // primary key
-    nImageID, // foreign key
-    nUserID, // foreign key
-    strContent,
-    nCreationDateMiliseconds
-}
-```
