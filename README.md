@@ -2,8 +2,10 @@
 
 TODO:
 
+```
+Create a DB with the following rules
+```
 
-** DB
 ```
 Users : {
     nID, // primary key
