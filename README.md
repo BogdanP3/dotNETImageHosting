@@ -6,11 +6,11 @@ TODO:
 <details> 
     <summary>Create a database.</summary>
         <br>
-- [ ]   <details>
+        <details>
             <summary>Users</summary>
 
 
-                Users : {
+                - [ ] Users : {
                     nID, // primary key
                     strDisplayName,
                     strEmail,
